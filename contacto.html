@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/bootstrap.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Proyecto Final - Bootstrap</title>
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-white" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="personajes.html">PERSONAJES</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </section>
+
+    <main class="container-fluid px-0 ">
+        <h1 id="contact-h1" class="text-center p-5 bg-primary text-white">Contacto</h1>
+            <div class="container">      
+                <div class="formulario">
+                    <form action="#">
+                        <label for="fname">Primer Nombre</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Escriba su Nombre..">
+                    
+                        <label for="lname">Sus Apellidos</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Escriba su Apelldios..">
+                    
+                        <label for="country">Pais o Ciudad</label>
+                        <select id="country" name="country">
+                        <option value="australia">Rep. Dominicana</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">España</option>
+                        <option value="usa">Francia</option>
+                        <option value="canada">Haiti</option>
+                        <option value="usa">Venezuela</option>
+                        </select>
+                    
+                        <label for="subject">Mensaje</label>
+                        <textarea id="subject" name="subject" placeholder="Dejame tu Mensaje" style="height:200px"></textarea>                    
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+                <div class="justify-content-center align-items-center my-5 py-5 text-center">
+                    <div id="redes">
+                        <div class="container text-center">
+                            <p class="redes-text">Tambien me pueden seguir en mis redes.</p>
+                            <div class="redes-icons">
+                                <a href="https://www.facebook.com/JavierBeriguete" target="_blank"><img src="images/socials/facebook.png" alt=""></a>
+                                <a href="https://www.instagram.com/javier_1701/" target="_blank"><img src="images/socials/instagram.png" alt=""></a>
+                                <a href="https://twitter.com/Chased_by_Death" target="_blank"><img src="images/socials/twitter.png" alt=""></a>
+                                <a href="https://github.com/javier1701" target="_blank"><img src="images/socials/github.png" alt=""></a>
+                                <a href="https://www.linkedin.com/in/javier-beriguete-594817199/" target="_blank"><img src="images/socials/linkedin.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>      
+        
+      </div>
+    </main>
+
+        
+		<!--------- Footer Section --------->
+		<footer class="footer">
+			<p class="deR">Todos los derechos reservados.&copy; - Cuatrimestre Septiembre - Diciembre, 2022.<br><b>Javier Beriguete.</b></p>
+		</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

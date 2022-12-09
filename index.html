@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/bootstrap.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Proyecto Final - Bootstrap</title>
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-white" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="personajes.html">PERSONAJES</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </section>
+
+    <main>
+        <!------------------- Banner section --------------------->
+        <section id="banner">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 text-container">
+                        <div class="text">
+                            <h1>Solo Leveling.</h1>
+                            <h3>El manhwa que causo un fenomeno en Corea del Sur y el mundo.</h3>
+                            <p>Solo leveling es un manhwa coreano que se volvio muy popular entre los años 2020 al 2022. Es considerado por muchos el mejor manhwa escrito.</p>
+                        </div>
+                    </div>
+
+                    <div class="col md-6">
+                        <img src="images/main.png" alt="Main Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+            <!------------------- Story section --------------------->
+            <section class="container story">
+                <div class="row justify-content-md-center align-items-center my-5 py-5">
+                    <div class="col-md">
+                        <h1 class="text-center mb-4 titles">Solo Leveling</h1>
+                        <p>Solo Leveling, es una WebNovel y un Webtoon o manwha de Corea del Sur escritos por Chugong. Fue serializado en la plataforma de ficción y cómics digitales de Kakao KakaoPage el 25 de julio de 2016 y luego fue publicado por D&C Media bajo su etiqueta Papyrus el 4 de noviembre de 2016. Desde entonces, la novela ha sido licenciada en inglés por Webnovel bajo el título Only I Level Up.</p>
+                    </div>
+
+                    <div class="col-md">
+                        <h1 class="text-center mb-4 titles">Trama</h1>
+                        <p>En un mundo en el que ciertos humanos poseen habilidades mágicas, llamados cazadores, deben luchar contra monstruos para proteger a la raza humana de una aniquilación segura, un cazador muy débil llamado Sung Jinwoo se encuentra en una lucha en la que solo puede tratar de sobrevivir. Un día, después de sobrevivir por poco a una mazmorra doble abrumadoramente poderosa que casi acaba con todo su grupo, un programa misterioso llamado Sistema lo elige como su único jugador y, a su vez, le da la sorprendente habilidad de subir de nivel sin límites.</p>
+                    </div>  
+                </div>
+            </section>
+
+
+
+            <!------------------- Carousel or Galery Section --------------------->
+            <section class="container-fluid img-carousel p-0">
+                <h1 class="my-5 text-center main-text">Galeria</h1>
+
+                <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="9"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+                        <img src="images/fondo1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <img src="images/fondo2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/fondo3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/fondo4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/fondo5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/fondo6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/fondo7.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/fondo8.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/fondo9.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/fondo10.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>                
+                    
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
+                        <span class="carousel-control-prev-icon carousel-btn" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval" data-slide="next">
+                        <span class="carousel-control-next-icon carousel-btn" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+            </section>
+
+
+
+            <!------------------- Characters section --------------------->
+            <section class="container my-5">            
+                <h1 class="my-5 text-center main-text2">Personajes Principales</h1>
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                    <div class="col-md">
+                        <div class="card" style="width: 18rem;">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/personajes/sung-jin1.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/personajes/sung-jin4.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                
+                                <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                
+                                <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            
+                            </div>
+                            <div class="card-body">
+                                <h2 class="text-center titles2">Sung Jinwoo</h2>
+                                <p class="card-text text-justify">Sung Jinwoo el protagonista principal de Solo Leveling. <br><br>Originalmente un E-Rank Hunter infamemente débil, tuvo la oportunidad de su vida cuando fue seleccionado como el Jugador del Sistema, dándole la habilidad única de crecer en fuerza sin restricciones. Como resultado, al aprovechar las oportunidades que le ofrecía el Sistema, Jin-Woo finalmente ascendió al poder como el mayor cazador de la humanidad y el segundo Monarca de las Sombras.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-md">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/personajes/cha2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="text-center titles2">Cha Hae-In</h2>
+                                <p class="card-text text-justify">Cha Hae-In es una cazadora coreana de rango S y la vicecapitan del gremio Hunters.<br><br>Cha es el tercer cazador más fuerte en Corea después de Go Gunhee y Jinwoo, y este último inicialmente creyó que ella y Gunhee podrían tener el mismo nivel de poder. Goto también la consideró lo suficientemente competente como para hacer que los mejores cazadores.<br><br><br><br></p>
+                            </div>
+                        </div>        
+                    </div>
+                    
+                    <div class="col-md">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/personajes/GoGunHee.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="text-center titles2">Go Gun Hee</h2>
+                                <p class="card-text text-justify">Go Gunhee es un cazador de rango S coreano y el presidente de la Asociación de Cazadores de Corea, una agencia gubernamental responsable de supervisar a todos los cazadores, puertas y gremios activos en Corea. Aunque más tarde se revela que obtiene sus poderes de los Gobernantes como lo hace Il-Hwan, sufre de una variedad de problemas de salud debido a su vejez, lo que le impide usar sus poderes al máximo de su rendimiento, y finalmente es asesinado por los Monarcas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/personajes/thomasandre.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="text-center titles2">Thomas Andre</h2>
+                                <p class="card-text text-justify">Thomas Andre es el cazador más fuerte de Estados Unidos además de ser uno de los cazadores de nivel nacional, ocupando el primer lugar en el mundo. Al igual que Il-Hwan, obtiene sus poderes de los Gobernantes y es apodado Goliat debido a su robusta constitución e inmensa fuerza lo cual lo convierte en uno de los mejores tanques.<br>Thomas es un hombre corpulento y musculoso con largo cabello rubio, ojos rojos, una sonrisa llena de dientes y una perilla rubia muy grande.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <!--------- Call to Action --------->
+            <section class="cta">
+                <h1>Esta pagina fue creada por <b>Javier Beriguete, Mat: 12-EISN-1-183</b>, como ultima practica de la materia de Interaccion Humano-Computador. <br>Si quiere mas informacion sobre mi o me quiere contactar, pulsar el boton de abajo.</h1>
+                <a href="contacto.html" class="btn btn-primary">CONTACTO</a>
+            </section>
+        </main>
+
+        
+		<!--------- Footer Section --------->
+		<footer class="footer">
+			<p class="deR">Todos los derechos reservados.&copy; - Cuatrimestre Septiembre - Diciembre, 2022.<br><b>Javier Beriguete.</b></p>
+		</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Secular One', sans-serif;    
+}
+
+a, ul, li {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.navbar {
+    background-image: linear-gradient(to right, #000, #543B9B);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 4em;
+    padding-left: 8em;
+}
+
+.navbar-nav li {
+    padding: 0 20px;
+}
+
+.navbar-nav li a {
+    color: #FFF !important;
+    font-weight: 700;
+    text-align: center;
+}
+
+#navbarNav ul li::after {
+	content: ""; 
+	width: 0%;
+	height: 2px;
+	background: #FFF;
+	display: block;
+	margin: auto;
+	transition: 0.6s;
+}
+
+#navbarNav ul li:hover::after {
+	width: 100%;
+	box-shadow: 0 0 10px 5px #6F3DFA;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.navbar-toggler-icon {
+    color: #FFF;
+    font-size: 30px;
+}
+
+
+/*----------------- Banner Section -----------------*/
+#banner {
+    background-image: linear-gradient(to right, #000, #543B9B);
+    color: #FFF;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#banner .text-center {
+    margin-left: 100px;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.text h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#banner img {
+    margin-bottom: 100px;
+    border-radius: 50%;
+}
+
+
+
+/*--------------------- Story --------------------*/
+.story h1, .card-body h2 {
+    font-family: 'Secular One', sans-serif;
+}
+
+.titles::before {
+    content: '';
+    background: #6F3DFA;
+    height: 5px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(62px);
+}
+
+.titles::after {
+    content: '';
+    background: #6f3dfa;
+    height: 20px;
+    width: 40px;
+    display: block;
+    margin: 0 auto 40px auto;
+    transform: translateY(3px);
+}
+
+
+
+/*--------------------- Carousel --------------------*/
+.main-text {
+    font-family: 'Secular One', sans-serif;
+    font-size: 5em;
+}
+
+.main-text::before {
+    content: '';
+    background: #632aff;
+    height: 7px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(85px);
+    border-radius: 25px;
+	box-shadow: 0 0 10px 5px #8370BB;
+}
+
+.img-carousel {
+    width: 100%;
+    height: 75%;
+}
+
+#carouselExampleInterval .carousel-btn {
+    width: 40px;
+    height: 40px;
+}
+
+
+/*--------------------- Personajes --------------------*/
+.main-text2 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 4em;
+}
+
+.main-text2::before {
+    content: '';
+    background: #6F3DFA;
+    height: 7px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(85px);
+    border-radius: 25px;
+	box-shadow: 0 0 10px 5px #8370BB;
+}
+
+.card img {
+    width: 286px;
+    height: 400px;
+}
+
+.titles2::before {
+    content: '';
+    background: #6F3DFA;
+    height: 5px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(55px);
+}
+
+.titles2::after {
+    content: '';
+    background: #6F3DFA;
+    height: 20px;
+    width: 40px;
+    display: block;
+    margin: 0 auto 40px auto;
+    transform: translateY(3px);
+}
+
+
+/*-------- CTA Section --------*/
+.cta {
+	margin: 100px auto 0;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(images/cta.png);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 100px 0;
+	background-attachment: fixed;
+}
+
+.cta h1{
+	color: #FFF;
+	margin-bottom: 40px;
+	padding: 0;
+	font-size: 1.8em;
+}
+
+.cta .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #701f7d, #610a8d );
+}
+
+.cta .btn-primary:hover {
+    background-image: linear-gradient(to right, #783283, #6b2091 );
+    color: #000;
+    font-weight: 700;
+}
+
+
+/*----------------- Seccion del Footer -----------------*/
+.footer {
+	text-align: center;
+    background-image: linear-gradient(to right, #000, #543B9B);
+    padding: 0 !important;
+	color: #fff;
+}
+
+.footer .deR {
+    padding: 50px 0;
+    margin: 0;
+}
+
+
+
+
+/*-------------------------------------- Pagina de Contactos --------------------------------------*/
+#contact-h1 {
+    font-family: 'Secular One', sans-serif;
+    background-image: linear-gradient(to right, #000, #543B9B);
+    margin-bottom: 100px;
+}
+
+.formulario {
+    width: 85%;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 222, 10);
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ccdd0e;
+    color: black;
+    font-size: 18px;
+  }
+
+  .redes-text {
+    font-size: 3em;
+    font-weight: 700;
+  }
+
+  #redes .redes-icons img {
+    margin: 0 5px;
+    width: 60px;
+    transition: 0.5s;
+  }
+
+  #redes .redes-icons a:hover img {
+    transform: translateY(-10px);
+  }
+
